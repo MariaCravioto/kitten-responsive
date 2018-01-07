@@ -1,21 +1,22 @@
 /*
 *dawn
 */
-@media all and (max-width: 768px){
-  .desktop{
+@media all and (max-width: 768px) {
+  .col-7 {
+    margin-left: 15%;
+    width: 70%;
+  }
+
+  .desktop {
    display: none;
   }
 
-  .ipad{
+  .ipad {
    display: block;
    height: 100%;
   }
-  .ipad > img{
-    margin-top: 600px;
-    width: 100%;
-  }
 
-  .mobile{
+  .mobile {
    display: none;
   }
 }
@@ -23,20 +24,16 @@
 /*
 *night
 */
-@media all and (max-width: 414px){
-  .desktop{
+@media all and (max-width: 414px) {
+  .desktop {
    display: none;
   }
 
-  .ipad{
+  .ipad {
    display: none;
   }
 
-  .mobile{
+  .mobile {
    display: block;
+   height: 100%;
   }
-  .mobile > img{
-    margin-top: 300px;
-    width: 100%;
-  }
-}

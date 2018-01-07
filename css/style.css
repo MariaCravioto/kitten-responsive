@@ -1,33 +1,40 @@
 /*
 *general
 */
-img{
-  display: inline-block;
-  margin-top: 180px;
-  width: 50%;
+html,body {
+  height:100%;
+  margin:0px;
 }
 
-.kitten{
+.kitten {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 60px;
-  text-align: center;
+  height: 100%;
 }
 
 /*
 *day
 */
-.desktop{
+.col-7 {
+  bottom: 20px;
+  box-sizing: border-box;
+  margin-left: 25%;
+  padding: 0;
+  position: fixed;
+  width: 40%;
+}
+
+.desktop {
  background-image: url("../assets/images/sunny-day.jpg");
 }
 
-.ipad{
+.ipad {
   background-image: url("../assets/images/dawn.png");
   display: none;
 }
 
-.mobile{
+.mobile {
   background-image: url("../assets/images/night.jpg");
   display: none;
 }
