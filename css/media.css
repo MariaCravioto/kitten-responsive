@@ -1,0 +1,41 @@
+/*
+*dawn
+*/
+@media all and (max-width: 768px){
+  .desktop{
+   display: none;
+  }
+
+  .ipad{
+   display: block;
+  }
+  .ipad > img{
+    margin-top: 600px;
+    width: 100%;
+  }
+
+  .mobile{
+   display: none;
+  }
+}
+
+/*
+*night
+*/
+@media all and (max-width: 414px){
+  .desktop{
+   display: none;
+  }
+
+  .ipad{
+   display: none;
+  }
+
+  .mobile{
+   display: block;
+  }
+  .mobile > img{
+    margin-top: 300px;
+    width: 100%;
+  }
+}

@@ -1,0 +1,28 @@
+/*
+*general
+*/
+.kitten{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px;
+  text-align: center;
+  width: 100%;
+}
+
+/*
+*day
+*/
+.desktop{
+ background-image: url("../assets/images/sunny-day.jpg");
+}
+
+.ipad{
+  background-image: url("../assets/images/dawn.png");
+  display: none;
+}
+
+.mobile{
+  background-image: url("../assets/images/night.jpg");
+  display: none;
+}
