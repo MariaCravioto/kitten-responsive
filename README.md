@@ -2,11 +2,11 @@
 
 # KITTEN
 
-**General usage notes:**
+**Notas generales:**
 
-- Create a web page showing a different landscape and kitten as the browser window becomes smaller.
+- Cree una página web que muestre un paisaje y un gatito diferentes a medida que la ventana del navegador se hace más pequeña.
 
-- The site should look like in the following images.
+- El sitio debe verse en las siguientes imágenes.
 
 ![kitten_dawn](https://image.ibb.co/hxAQ7G/kitten_dawn.png)
 
